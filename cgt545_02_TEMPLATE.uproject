@@ -1,8 +1,23 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.0",
 	"Category": "Samples",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "Bridge",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"MacNoEditor",
 		"WindowsNoEditor"
